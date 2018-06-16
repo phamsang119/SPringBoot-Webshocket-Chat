@@ -7,7 +7,11 @@ import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.stereotype.Controller;
 
 import com.example.model.ChatMessage;
-
+/**
+ * 
+ * @author phamsang
+ *
+ */
 @Controller
 public class ChatController {
 	@MessageMapping("/chat.sendMessage")

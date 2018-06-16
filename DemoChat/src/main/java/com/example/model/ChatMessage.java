@@ -1,5 +1,9 @@
 package com.example.model;
-
+/**
+ * 
+ * @author phamsang
+ *
+ */
 public class ChatMessage {
 	 private MessageType type;
 	    private String content;
